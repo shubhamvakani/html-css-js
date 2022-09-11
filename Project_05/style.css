@@ -1,0 +1,48 @@
+.inner_div{
+    background-color:rgb(168, 134, 140);
+    width: 400x;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-right: 250px
+    
+}
+body{
+    background-color:rgb(201, 201, 103);
+}
+/* .outer_div{
+    background-color: cadetblue;
+} */
+.input-lable{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 50px;
+}
+.input-text{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-display: column;
+    top: 70px;
+}
+.temp_Sel{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-display: column;
+    left: 130px;
+    top: 49px;
+}
+.submit_btn{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-display: column;
+    top: 50px
+}

@@ -1,0 +1,16 @@
+#myImages{
+    display: block;
+    max-width: 10%;
+    height: auto;
+    margin-left: 150px;
+
+}
+body{
+    background-color: rgb(139, 110, 139);
+}
+
+.main-heading{
+    color: white;
+    margin-left: 250px;
+    margin-top: 50px;
+}
