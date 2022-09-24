@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#e0f2f1;
+}
+
+.heading{
+
+    background-color: #00897b;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e0f2f1;
+    margin: auto;
+    text-align: center;
+  }
+
+  
+  .material-symbols-outlined {
+    padding-right: 10px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+
+.add{
+  background-color: #e0f2f1; /* Green */
+  border: none;
+  color: #004d40;
+  padding: 10px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  border: 1px solid #26a69a;
+  margin-left: 1230px;
+  margin-top: 20px;
+}
+
+.add:hover{
+  background-color: #26a69a;
+  color: #e0f2f1 
+}
+
+.operation{
+  background-color: #b2dfdb;
+  border-radius: 10px;
+}
+
+.main{
+  background-color: #b2dfdb;
+  padding-left: 25px;
+}
+
+textarea{
+  background-color: #b2dfdb;
+  font-size: 15px;
+  resize: none;
+  outline: none;
+  overflow: auto;
+  border: hidden;
+  width: 255px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 80px;
+  border-radius: 10px;
+}
+.note{
+  
+    width: 300px;
+    height: 150px;
+    background-color: #b2dfdb;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.delete{
+    background-color:#b2dfdb;
+    color: #004d40;
+    width: 30px;
+    border: none;
+    /* border: 0.5px solid #b71c1c; */
+    border-radius: 48px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    margin-top: 5px;
+    
+  }
+
+  .delete:hover{
+    background-color: #c62828;
+    color: #e0f2f1;
+  }
+
+.edit{
+    color: #004d40;
+    width: 30px;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color:#b2dfdb;
+     /* border: 0.2px solid #26a69a; */
+    border-radius: 80px;
+    margin-left: 220px;
+}
+
+.edit:hover{
+  background-color: #004d40;
+  color: #e0f2f1;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.outer_container{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
