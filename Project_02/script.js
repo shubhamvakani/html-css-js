@@ -10,25 +10,25 @@ const jokebtn = document.querySelector('#jokebtn');
 // Using Promices :
 
 
-// const generateJokes = () =>{
+const generateJokes = () =>{
 
-//     const setHeader = {
-//         headers : {
-//             Accept : "application/json"
-//         }
-//     }
+    const setHeader = {
+        headers : {
+            Accept : "application/json"
+        }
+    }
 
-//     fetch('https://icanhazdadjoke.com', setHeader)
-//     .then ( (res) =>res.json())
+    fetch('https://icanhazdadjoke.com', setHeader)
+    .then ( (res) =>res.json())
     
-//     .then ((data) => {
-//         jokes.innerHTML = data.joke;
-//     })
+    .then ((data) => {
+        jokes.innerHTML = data.joke;
+    })
     
-//     .catch((error) =>{
-//         console.log(error);
-//     })
-// }
+    .catch((error) =>{
+        console.log(error);
+    })
+}
 
 
 // Using Async Await : 
